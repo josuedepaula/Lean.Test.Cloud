@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.Test.Cloud", "Lean.Test.Cloud\Lean.Test.Cloud.csproj", "{8DD6D21D-6FFD-4B86-9450-D3C99001F4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{EF2EFD67-AB36-475C-A432-EE901EF11146}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{2D937531-68F3-4A37-8E30-7B3518E68D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.Test.Application", "Lean.Test.Application\Lean.Test.Application.csproj", "{22666B45-3670-46D2-8743-5F3641536743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Business", "3-Business", "{A32B21CF-B3D1-4DEE-90D6-E58996F33646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.Test.Business", "Lean.Test.Business\Lean.Test.Business.csproj", "{C42CC83D-B43C-49ED-A83E-5D2D784CF0F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Repository", "4-Repository", "{E99721E7-D8E2-492C-B0C7-4D4BBAD9E7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.Test.Repository", "Lean.Test.Repository\Lean.Test.Repository.csproj", "{FFF4F7C9-47B0-4627-AAA8-9A50DC8A74DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lean.Test.Domain", "Lean.Test.Domain\Lean.Test.Domain\Lean.Test.Domain.csproj", "{2E32DDF5-1A4E-4249-93A0-CE04CFFE02D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD6D21D-6FFD-4B86-9450-D3C99001F4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD6D21D-6FFD-4B86-9450-D3C99001F4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD6D21D-6FFD-4B86-9450-D3C99001F4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD6D21D-6FFD-4B86-9450-D3C99001F4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22666B45-3670-46D2-8743-5F3641536743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22666B45-3670-46D2-8743-5F3641536743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22666B45-3670-46D2-8743-5F3641536743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22666B45-3670-46D2-8743-5F3641536743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42CC83D-B43C-49ED-A83E-5D2D784CF0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42CC83D-B43C-49ED-A83E-5D2D784CF0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42CC83D-B43C-49ED-A83E-5D2D784CF0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42CC83D-B43C-49ED-A83E-5D2D784CF0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF4F7C9-47B0-4627-AAA8-9A50DC8A74DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF4F7C9-47B0-4627-AAA8-9A50DC8A74DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF4F7C9-47B0-4627-AAA8-9A50DC8A74DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF4F7C9-47B0-4627-AAA8-9A50DC8A74DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E32DDF5-1A4E-4249-93A0-CE04CFFE02D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E32DDF5-1A4E-4249-93A0-CE04CFFE02D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E32DDF5-1A4E-4249-93A0-CE04CFFE02D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E32DDF5-1A4E-4249-93A0-CE04CFFE02D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DD6D21D-6FFD-4B86-9450-D3C99001F4AE} = {EF2EFD67-AB36-475C-A432-EE901EF11146}
+		{22666B45-3670-46D2-8743-5F3641536743} = {2D937531-68F3-4A37-8E30-7B3518E68D70}
+		{C42CC83D-B43C-49ED-A83E-5D2D784CF0F8} = {A32B21CF-B3D1-4DEE-90D6-E58996F33646}
+		{FFF4F7C9-47B0-4627-AAA8-9A50DC8A74DE} = {E99721E7-D8E2-492C-B0C7-4D4BBAD9E7D9}
+		{2E32DDF5-1A4E-4249-93A0-CE04CFFE02D3} = {A32B21CF-B3D1-4DEE-90D6-E58996F33646}
+	EndGlobalSection
+EndGlobal
